@@ -1,0 +1,10 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  height: 50px;
+  background: #15202b;
+  .nav-dots {
+    margin-right: 0.5rem;
+  }
+}

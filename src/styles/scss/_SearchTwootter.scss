@@ -1,0 +1,24 @@
+.SearchTwootter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background: #253341;
+  margin: 0 1.5rem;
+  padding: 0 0.5rem;
+  .search-icon {
+    margin: 0.4rem;
+  }
+  input {
+    flex: 1;
+    padding: 0.2rem;
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    outline: none;
+    color: #fff;
+    &::placeholder {
+      color: #8899a6;
+    }
+  }
+}
